@@ -42,6 +42,15 @@ namespace Lab02
             Console.WriteLine($"HP Percent: {hpPercent}%");
 
             //Part B
+            // ---------- Part B: My Own Game (SAMPLE ONLY — students design their own theme/values) ----------
+            // เกณฑ์การตรวจ Part B: 4 ตัวละคร x 5 stat/ตัว, รวมกันครบ 6 ชนิดข้อมูล, มี label กำกับ, ใช้ $"..." ทุกจุด
+            // ตัวอย่างธีมนี้ (ทีมนักผจญภัย 4 คน) เป็นแค่ 1 วิธี ไม่ใช่คำตอบเดียวที่ถูก ห้ามหักคะแนนถ้าธีม/ค่าไม่เหมือนตัวอย่างนี้
+
+            string hero1Name = "Anya";
+            int hero1Hp = 120;
+            float hero1Atk = 18.5f;
+            double hero1CritRate = 0.15;
+            char hero1Rank = 'A';
         }
     }
 }
