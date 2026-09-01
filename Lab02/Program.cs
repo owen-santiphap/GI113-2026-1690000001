@@ -51,6 +51,49 @@ namespace Lab02
             float hero1Atk = 18.5f;
             double hero1CritRate = 0.15;
             char hero1Rank = 'A';
+
+            
+
+            Console.WriteLine("----- HERO 1 -----");
+            Console.WriteLine($"Name: {hero1Name}");
+            Console.WriteLine($"HP: {hero1Hp}");
+            // 1. การปริ้นค่าใหม่ โดยใช้ตัวแปรใหม่
+            string hero2Name = "Max";
+            int hero2Hp = 200;
+            Console.WriteLine("----- HERO 2 -----");
+            Console.WriteLine($"Name: {hero2Name}");
+            Console.WriteLine($"HP: {hero2Hp}");
+            
+            // 2. การปริ้นค่าใหม่ โดยใช้ตัวแปรเดิม ผ่านการ assign ค่าเข้าใหม่
+            string heroName = "Min";
+            int money = 100;
+            Console.WriteLine("----- HERO 3 -----");
+            Console.WriteLine($"Name: {heroName}");
+            Console.WriteLine($"HP: {money}");
+
+            heroName = "Sum";
+            money = 300;
+            Console.WriteLine("----- HERO 4 -----");
+            Console.WriteLine($"Name: {heroName}");
+            Console.WriteLine($"HP: {money}");
+
+            // 1. การเว้นบรรทัดแบบปริ้นช่องว่าง
+            Console.WriteLine("I AM HUNGRY");
+            Console.WriteLine();
+            Console.WriteLine("I GO EAT");
+
+            // 2. แบบใช้ \n เพื่อเว้นบรรทัด
+            Console.WriteLine("\nI AM HUNGRY\n");
+            Console.WriteLine("I GO EAT");
+
+            // 3. แบบใช้ \n และลดการพิมพ์ Console.Write
+            Console.WriteLine("\nI AM HUNGRY\n\nI GO EAT");
+
+            // 4. แบบ Hybrid ใช้บรรทัดใหม่ และ \n รวม +
+            Console.WriteLine("\nI AM HUNGRY" +
+                "\nI GO EAT" +
+                "\nI AM SLEEPY" +
+                "\nI GO SLEEP");
         }
     }
 }
